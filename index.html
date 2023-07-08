@@ -1,0 +1,746 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="/style.css">
+    <script src="/script.js" defer></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <!--------Header Section-------->
+    <header class="header" id="top">
+        <nav class="navigation">
+            <div class="logo">
+                <a href="https://www.gitpod.io/media-kit">
+                    <img src="/images/logo-light-theme.svg" height="65" width="130" alt="logo">
+                </a>
+            </div>
+            <div class="nav-links" id="navbar-links">
+                <a href="https://www.gitpod.io/screencasts/getting-started-with-gitpod">Screencasts</a>
+                <a href="https://www.gitpod.io/blog">Blog</a>
+                <a href="https://www.gitpod.io/docs">Docs</a>
+                <a href="https://www.gitpod.io/changelog">Changelog</a>
+                <a href="https://www.gitpod.io/customers" class="highlight">Customers</a>
+                <a href="https://www.gitpod.io/pricing">Pricing</a>
+            </div>
+            <div class="nav-items">
+                <div class="nav-links">
+                    <a href="https://www.gitpod.io/contact">Contact</a>
+                    <a href="https://gitpod.io/login/">Login</a>
+                </div>
+                <div class="login-wrapper">
+                    <button class="sign-btn"><a href="https://www.gitpod.io/#get-started" target="_blank">Sign
+                            Up</a></button>
+                    <div id="menu-bar" class="fas fa-bars"></div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!--------Header Section-------->
+    <main>
+        <section id="home" class="home">
+            <div class="left-col">
+                <h1 class="head-1">
+                    Always<br />
+                    Ready to Code.
+                </h1>
+                <p class="large-text">Spin up fresh, automated dev environments<br />
+                    for each task, in the cloud, in seconds.
+                </p>
+                <div class="hero-action">
+                    <div class="grid-box">
+                        <div class="try_btn">
+                            <button class="btn">
+                                <a href="https://www.gitpod.io/#get-started" class="try-btn">Try Now</a>
+                            </button>
+                        </div>
+                        <p class="try-text">
+                            Open a workspace.<br />
+                            Start from any Git context.
+                        </p>
+                    </div>
+                    <div class="grid-box">
+                        <div class="hero-icons">
+                            <img src="/images/gitlab.svg" alt="" width="30" height="30">
+                            <img src="/images/github.svg" alt="" width="30" height="30">
+                            <img src="/images/bitbucket.svg" alt="" width="30" height="30">
+                        </div>
+                        <div class="hero_star">
+                            <a class="star-btn" href="https://github.com/gitpod-io/gitpod">
+                                <i class="far fa-star"></i>&nbsp;
+                                <span>Star</span>
+                            </a>
+                            <a class="social-count" href="https://github.com/gitpod-io/gitpod/stargazers"
+                                target="_blank">6,574</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="right-col">
+                <img src="/images/illustration-large.jpg" alt="Gitpod in a Nutshell" width="600" height="600">
+            </div>
+        </section>
+
+        <!-- select Section Start -->
+        <section class="select-sec" id="select">
+            <h2 class="heading-2">Select project,<br>
+                <del class="desktop">
+                    <span class="strikethrough">
+                        check dependencies, checkout branch, view
+                    </span>
+                    <br>
+                    <span class="strikethrough">
+                        readme.txt, install tools, run build, run test, </span>
+                </del>
+                <br>
+                start coding.
+            </h2>
+        </section>
+
+        <!--------Feature Section-------->
+        <section class="feature-sec" id="feature">
+            <div class="feature-container feature-col">
+                <div class="feature-info">
+                    <div class="large-text">
+                        <h2>Remote development without friction</h2>
+                        <p class="small-text">
+                            Gitpod continuously builds your git branches like a CI server so that you can start coding
+                            right
+                            away - no more waiting for dependencies to download and builds to finish.
+                        </p>
+                    </div>
+                    <div class="feature-button">
+                        <a href="https://www.gitpod.io/docs/prebuilds" class="btn">More on prebuilds</a>
+                    </div>
+                </div>
+                <div class="preview">
+                    <img src="/images/canvas.png" width="550" height="400" alt="">
+                </div>
+            </div>
+            <div class="feature-container feature-col-2">
+                <div class="work-img">
+                    <img src="/images/gitpod.PNG" alt="">
+                </div>
+                <div class="work-info feature-txt">
+                    <div class="large-text">
+                        <h2>Works on my machine - and yours</h2>
+                        <p class="small-text">
+                            Spin up pre-configured, standardized dev environments from any git context when you need
+                            them
+                            and close them when you're done. You won't go back to the friction of long-living stateful
+                            environments.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--------Craft Section-------->
+        <section class="craft-sec">
+            <h2>Your environment, your tools, your craft</h2>
+            <div class="craft-container">
+                <div class="text-center">
+                    <div class="switch-container">
+                        <label for="screenshot" class="desktop-txt">Desktop</label>
+                    </div>
+                    <label for="screenshot" class="browser-txt ">Browser</label>
+                </div>
+
+                <div class="craft-image">
+                    <img class="shadow" src="/images/vscode-desktop.png" alt="Visual Studio Code">
+                </div>
+                <div class="icons">
+                    <button class="icons-col">
+                        <div class="icon-box">
+                            <img class="icon" src="/images/vscode.svg" alt="Visual Studio Code">
+                        </div>
+                    </button>
+                    <button class="icons-col">
+                        <div class="icon-box">
+                            <img class="icon" src="/images/goland.svg" alt="Goland">
+                        </div>
+                    </button>
+                    <button class="icons-col">
+                        <div class="icon-box">
+                            <img class="icon" src="/images/intellij.svg" alt="IntelliJ IDEA">
+                        </div>
+                    </button>
+                    <button class="icons-col">
+                        <div class="icon-box">
+                            <img class="icon" src="/images//pycharm.svg" alt="PyCharm">
+                        </div>
+                    </button>
+                    <button class="icons-col">
+                        <div class="icon-box">
+                            <img class="icon" src="/images/phpstorm.svg" alt="PhpStorm">
+                        </div>
+                    </button>
+                    <button class="icons-col">
+                        <div class="icon-box">
+                            <img class="icon" src="/images/rubymine.svg" alt="RubyMine">
+                        </div>
+                    </button>
+                    <button class="icons-col">
+                        <div class="icon-box">
+                            <img class="icon" src="/images/webstorm.svg" alt="webstorm">
+                        </div>
+                    </button>
+                </div>
+            </div>
+            <div class="craft-text-col">
+                <h3>We adapt, so you don't need to</h3>
+                <p>Run a desktop or browser based version of VS Code or any JetBrains IDE and customise it to your
+                    individual needs - from themes to extensions, you have full control.
+                </p>
+                <a href="https://www.gitpod.io/#get-started" class="try_btn btn">Try Now</a>
+            </div>
+        </section>
+        <!--------Logo Section-------->
+        <section class="logo-sec">
+            <h2>Used by 500k+ developers</h2>
+            <div class="brnads-sec">
+                <div class="brand-box">
+                    <div class="brand">
+                        <img src="/images/gitlab-logo.svg" alt="GitLab">
+                    </div>
+                </div>
+                <div class="brand-box">
+                    <div class="brand">
+                        <img src="/images/freecodecamp.svg" alt="Freecodecamp">
+                    </div>
+                </div>
+                <div class="brand-box">
+                    <div class="brand">
+                        <img src="/images/google.svg" alt="Google">
+                    </div>
+                </div>
+                <div class="brand-box">
+                    <div class="brand">
+                        <img src="/images/uber.svg" alt="Uber">
+                    </div>
+                </div>
+                <div class="brand-box">
+                    <div class="brand">
+                        <img src="/images/datastax.svg" alt="Datastax">
+                    </div>
+                </div>
+                <div class="brand-box">
+                    <div class="brand">
+                        <img src="/images/amazon.svg" alt="Amazon">
+                    </div>
+                </div>
+                <div class="brand-box">
+                    <div class="brand">
+                        <img src="/images/shares.svg" alt="Shares">
+                    </div>
+                </div>
+                <div class="brand-box">
+                    <div class="brand">
+                        <img src="/images/astrato.svg" alt="Astrato">
+                    </div>
+                </div>
+                <div class="brand-box">
+                    <div class="brand">
+                        <img src="/images/redwood.svg" alt="Redwood">
+                    </div>
+                </div>
+                <div class="brand-box">
+                    <div class="brand">
+                        <img src="/images/code-institute.svg" alt="code-institute">
+                    </div>
+                </div>
+            </div>
+            <div class="customer-btn">
+                View&nbsp; <a href="https://www.gitpod.io/customers">
+                    <span class="underline">customer stories</span>
+                </a>
+            </div>
+        </section>
+        <!--------Colborate Section-------->
+        <section class="feature-sec" id="feature">
+            <div class="feature-container feature-col-box">
+                <div class="feature-info">
+                    <div class="large-text">
+                        <h2>Multi track development with ease</h2>
+                        <p class="small-text">
+                            You can have multiple workspaces with different contexts open at once - one for your
+                            feature, one for a bug or one for your code review directly in Gitpod.
+                        </p>
+                    </div>
+                </div>
+                <div class="work-img">
+                    <img src="/images/muti-track-development (1).svg " alt="">
+                </div>
+            </div>
+            <div class="feature-container feature-col-box">
+                <div class="black-area">
+                    <img src="/images/img2.png " width="450" height="300" alt="">
+                </div>
+                <div class="feature-info">
+                    <div class="large-text">
+                        <h2>Bringing dev closer to prod</h2>
+                        <p class="small-text">
+                            Gitpod provisions powerful Linux containers under the hood. A Linux shell with root/sudo, a
+                            file system, Docker and all other tools and binaries that run on Linux. One OS for both dev
+                            and prod.
+                        </p>
+                    </div>
+                    <div class="feature-button">
+                        <a href="https://www.gitpod.io/docs/prebuilds" class="btn">Try Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="feature-container feature-col-box">
+                <div class="feature-info">
+                    <div class="large-text">
+                        <h2>Where teams code together</h2>
+                        <p class="small-text">
+                            Share running workspaces for pair programming, use port forwarding or share a snapshot as a
+                            copy of your workspace with teammates.
+                        </p>
+                    </div>
+                    <div class="feature-button">
+                        <a href="https://www.gitpod.io/docs/prebuilds" class="btn">More on collboration</a>
+                    </div>
+                </div>
+                <div class="preview collborate-img">
+                    <img src="/images/img3.png " alt="">
+                </div>
+            </div>
+            <div class="feature-container feature-col-box last-feature-col">
+                <div class="preview">
+                    <img src="/images/img4.png " alt="">
+                </div>
+                <div class="feature-info">
+                    <div class="large-text">
+                        <h2>Where teams code together</h2>
+                        <p class="small-text">
+                            Share running workspaces for pair programming, use port forwarding or share a snapshot as a
+                            copy of your workspace with teammates.
+                        </p>
+                    </div>
+                    <div class="feature-button">
+                        <a href="https://www.gitpod.io/docs/prebuilds" class="btn">Try now</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--------boxes Section-------->
+        <section class="boxes">
+            <div class="box-container">
+                <div class="box-col">
+                    <div>
+                        <img src="/images/open-source.svg" alt="Open Source">
+                        <h2>Open Source</h2>
+                        <p>We're free from big tech influence and integrate, not dictate. This makes our product
+                            development fast and close to our users & community.</p>
+                    </div>
+                </div>
+                <div class="box-col">
+                    <div>
+                        <img src="/images/saas.svg" alt="sass or self-hosted">
+                        <h2>SaaS or Self-Hosted</h2>
+                        <p>Use our SaaS solution running on the carbon neutral Google Cloud Platform or host Gitpod on
+                            your own cloud infrastructure using GKE, k3s, EKS or AKS.</p>
+                    </div>
+                </div>
+                <div class="box-col">
+                    <div>
+                        <img src="/images/secure.svg" alt="secure">
+                        <h2>SaaS or Self-Hosted</h2>
+                        <p>Gitpod centralizes all source code and safely stores it in the cloud, never locally. Security
+                            is at the core of everything we do at Gitpod.
+                        </p>
+                        <a href="https://www.gitpod.io/security">More about security</a>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--------Testimonial Section-------->
+        <section class="testimonial-sec">
+            <div class="content-center">
+                <h2>Putting developer experience first</h2>
+                <p>Bring back joy and speed to your workflows.</p>
+            </div>
+            <div class="testimonial-container scroller">
+                <a href="https://twitter.com/bendhalpern/status/1115274432958930946" target="_blank">
+                    <div class="testimonial">
+                        <div>
+                            <p>GitPod is incredibly cool.</p>
+                            <p>In my opinion, this is a big step in open source software contribution. I'm excited to
+                                see where we go from here.</p>
+                        </div>
+                        <div class="user">
+                            <img src="/user-img/ben-halpern.jpg" width="48" height="48" alt="Ben Halpern">
+                            <div class="user-content">
+                                <p class="user-name">Ben Halpern</p>
+                                <p class="role">
+                                    Creator and Co-founder<span>@forem </span>
+                                    and<span> @ThePracticalDev</span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a href="https://twitter.com/dnsmichi/status/1311560585717460992" target="_blank">
+                    <div class="testimonial">
+                        <div>
+                            <p>Let's say we were overwhelmed how smooth @gitpod workspaces creation &amp; own Docker
+                                image for workspaces worked.</p>
+                            <p>Plus, installing @code extensions from the store and integrating @gitlab CI. That blew my
+                                mind entirely, and that is hard ;)</p>
+                        </div>
+                        <div class="user">
+                            <img src="/user-img/michael-friedrich.jpg" width="48" height="48" alt="Michael Friedrich">
+                            <div class="user-content">
+                                <p class="user-name">Michael Friedrich</p>
+                                <p class="role">
+                                    Developer Evangelist
+                                    <span> @GitLab</span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a href="https://twitter.com/juliusvolz/status/1298972181708275717" target="_blank">
+                    <div class="testimonial">
+                        <div>
+                            <p> Look at any PR (pull request) in a full coding environment where you can edit, build,
+                                and test the PR code, by just prepending "gitpod.io#" to the PR URL. Super useful for
+                                reviewing/testing stuff without having to check it out locally!
+                            </p>
+                        </div>
+                        <div class="user">
+                            <img src="/user-img/julius-volz.jpg" width="48" height="48" alt="Julius Volz">
+                            <div class="user-content">
+                                <p class="user-name">Julius Volz</p>
+                                <p class="role">
+                                    Creator<span> @PrometheusIO </span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a href="https://twitter.com/DavidRessler/status/1191710936605831169" target="_blank">
+                    <div class="testimonial">
+                        <div>
+                            <p> I think I'm in love with @gitpod. It's such a powerful tool. I've learned so much in the
+                                past week
+                                just from stumbling across Github repos that interest me and appending
+                                “http://gitpod.io/#” to the URL. A+ tool all around.
+                            </p>
+                        </div>
+                        <div class="user">
+                            <img src="/user-img/david-ressler.jpg" width="48" height="48" alt="David Ressler">
+                            <div class="user-content">
+                                <p class="user-name">David Ressler</p>
+                                <p class="role">
+                                    Engineering Manager
+                                    <span> @instagram </span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a href="https://twitter.com/bwplotka/status/1387735880853606402" target="_blank">
+                    <div class="testimonial">
+                        <div>
+                            <p> This @gitpod thing is magic! Pretty cool, without any extra configuration. Good work!
+                            </p>
+                            <p> https://gitpod.io/#https://github.com/thanos-io/thanos</p>
+                        </div>
+                        <div class="user">
+                            <img src="/user-img/bwplotka.jpg" width="48" height="48" alt="Bartłomiej Płotka ">
+                            <div class="user-content">
+                                <p class="user-name">Bartłomiej Płotka</p>
+                                <p class="role">
+                                    Principal Software Engineer
+                                    <span> @RedHat </span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a href="https://twitter.com/raisedadead/status/1167463499779338243" target="_blank">
+                    <div class="testimonial">
+                        <div>
+                            <p>
+                                Ya'all @gitpod is freaking amazing! We integrated it into our workflow for working on
+                                @freeCodeCamp's codebase and I am honestly loving it. 🔥🔥!
+                                <br>
+                                Go check it out on our repo https://github.com/freeCodeCamp/f... now!
+                            </p>
+                        </div>
+                        <div class="user">
+                            <img src="/user-img/mrugesh-mohapatra.jpg" width="48" height="48" alt="Mrugesh Mohapatra">
+                            <div class="user-content">
+                                <p class="user-name">Mrugesh Mohapatra</p>
+                                <p class="role">
+                                    Technology & Community<span> @freeCodeCamp</span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a href="https://twitter.com/svenpet/status/1159698330764611584" target="_blank">
+                    <div class="testimonial">
+                        <div>
+                            <p>
+
+                                Huge time saver, less frustrations for devs: Automated ready-to-code
+                                dev environments with pre-build workspaces. #gitpod #cloudide
+                            </p>
+                        </div>
+                        <div class="user">
+                            <img src="/user-img/sven-peters.jpg" width="48" height="48" alt="Sven Peters">
+                            <div class="user-content">
+                                <p class="user-name">Sven Peters</p>
+                                <p class="role">
+                                    Dev Advocate
+                                    <span> @MongoDB</span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a href="https://twitter.com/jayfresh/status/1217728632887611397" target="_blank">
+                    <div class="testimonial">
+                        <div>
+                            <p>
+                                I'm really enjoying @gitpod - for me, it's made full-stack development in the browser
+                                (yes,including mobile) a reality</p>
+                        </div>
+                        <div class="user">
+                            <img src="/user-img/jonathan-lister-parsons.jpg" width="48" height="48"
+                                alt="Jonathan Lister Parsons">
+                            <div class="user-content">
+                                <p class="user-name">Jonathan Lister Parsons</p>
+                                <p class="role">
+                                    CTO
+                                    <span>@PensionBee</span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a href="https://twitter.com/jayfresh/status/1217728632887611397" target="_blank">
+                    <div class="testimonial">
+                        <div>
+                            <p>
+                                My setup is on @gitpod, just like Christopher McCandless, where I go my code goes with
+                                me,no setup whatsoever Smiling face with sunglasses 😎 #IntoTheWild</p>
+                        </div>
+                        <div class="user">
+                            <img src="/user-img/alejandro-sanchez.jpeg" width="48" height="48" alt="Alejandro">
+                            <div class="user-content">
+                                <p class="user-name">Alejandro</p>
+                                <p class="role">
+                                    Co-Founder
+                                    <span>@4GeeksAcademy</span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </section>
+
+        <!--------Cards Section-------->
+        <section class="cards-sec">
+            <h2>Get started now</h2>
+            <div class="text-center">
+                <div class="switch-container">
+                    <label for="screenshot" class="desktop-txt">Saas</label>
+                </div>
+                <label for="screenshot" class="browser-txt ">Self-Hosted</label>
+            </div>
+            <div class="cards-container">
+                <!-- -----left div---- -->
+                <div class="card">
+                    <h3>Connect Git repository</h3>
+                    <p>Select a Git provider to start with an existing project from any Git context.</p>
+                    <div class="buttons">
+                        <a href="https://gitpod.io/new" class="purple">
+                            <img src="/images/gitlab.8cfd4ea2.svg" alt="gitlab">
+                            Continue with GitLab
+                        </a>
+                        <a href="https://gitpod.io/new" class="black">
+                            <img src="/images/github.bd08d60a.svg" alt="GitHub">
+                            Continue with GitHub
+                        </a>
+                        <a href="https://gitpod.io/new" class="blue">
+                            <img src="/images/bitbucket.4d88d307.svg" alt="bitbucket">
+                            Continue with Bitbucket
+                        </a>
+                    </div>
+                    <p class="large-txt">
+                        Or prefix any GitLab, GitHub or Bitbucket URL with <br>
+                        <span class="prefix">gitpod.io/#</span>
+                    </p>
+                </div>
+                <!-- -----Right div---- -->
+                <div class="card">
+                    <h3>Launch an example workspace</h3>
+                    <p>Dive into one of our example workspaces</p>
+                    <div class="card-col">
+                        <a href="https://gitpod.io/#https://github.com/gitpod-io/example-typescript-node "
+                            target="_blank">
+                            <div class="left-side">
+                                <img src="/images/ts.svg" height="24" width="24" alt="Node or TypeScript">
+                                <div class="text-black">Node or TypeScript</div>
+                            </div>
+                        </a>
+                        <a href="https://gitpod.io/#https://github.com/gitpod-io/example-python-django" target="_blank">
+                            <div class="left-side">
+                                <img src="/images/python.svg" height="24" width="24" alt="python">
+                                <div class="text-black">Python</div>
+                            </div>
+                        </a>
+                        <a href="https://gitpod.io/#https://github.com/gitpod-io/example-golang-cli" target="_blank">
+                            <div class="left-side">
+                                <img src="/images/go.svg" height="24" width="24" alt="Golang">
+                                <div class="text-black">Golang</div>
+                            </div>
+                         
+                        </a>
+                        <a href="https://gitpod.io/#https://github.com/gitpod-io/example-rust-cli" target="_blank">
+                            <div class="left-side">
+                                <img src="/images/rust.svg" height="24" width="24" alt="Rust">
+                                <div class="text-black">Rust</div>
+                            </div>
+                            
+                        </a>
+                        <a href="https://gitpod.io/#https://github.com/gitpod-io/spring-petclinic" target="_blank">
+                            <div class="left-side">
+                                <img src="/images/java.svg" height="24" width="24" alt="java">
+                                <div class="text-black">Java</div>
+                            </div>
+                            
+                        </a>
+                        <a href="https://gitpod.io/#https://github.com/gitpod-io/sveltejs-template" target="_blank">
+                            <div class="left-side">
+                                <img src="/images/svelte.svg" height="24" width="24" alt=">Svelte">
+                                <div class="text-black">Svelte</div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="text-base">
+                        <a href="https://www.gitpod.io/docs/quickstart">More example workspaces</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--------Extenshion Section-------->
+        <section class="extenshion-sec">
+            <div class="extenshion-container">
+                <div class="extenshion-img">
+                    <img src="/images/gitpod-browser-extension.png"
+                        alt="Open in Gitpod button added via the Gitpod Browser Extension">
+                </div>
+                <div class="extenshion-text">
+                    <h3>Spin up developer environments with a single click.</h3>
+                    <p>
+                        Install the browser extension and add a button to your GitLab, GitHub and Bitbucket projects to
+                        easily spin up a dev environment with a single click.
+                    </p>
+                    <div class="extenshion-brand">
+                        <a
+                            href="https://chrome.google.com/webstore/detail/gitpod-always-ready-to-co/dodmmooeoklaejobgleioelladacbeki">
+                            <img src="/images/chrome.svg" width="24" height="24" alt="">
+                            Chrome Extension
+                        </a>
+                        <a
+                            href="https://chrome.google.com/webstore/detail/gitpod-always-ready-to-co/dodmmooeoklaejobgleioelladacbeki">
+                            <img src="/images/firefox.svg" width="24" height="24" alt="">
+                            Firefox Extension</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!--------Footer Section-------->
+    <footer class="footer">
+        <div class="footer-container">
+            <ul class="list">
+                <li class="bold">Gitpod</li>
+                <li><a href="https://www.gitpod.io/">Home</a></li>
+                <li><a href="https://www.gitpod.io/pricing  ">Pricing</a></li>
+                <li><a href="https://www.gitpod.io/changelog">Changlog</a></li>
+                <li><a href="https://www.gitpod.io/self-hosted">self-Hosted</a></li>
+                <li><a href="https://www.gitpod.io/for/startups">startups</a></li>
+                <li><a href="https://www.gitpod.io/for/opensource">opensource</a></li>
+                <li><a href="https://www.gitpod.io/vs/github-codespaces">gitpod vs GitHub</a></li>
+                <li><a href="https://www.gitpod.io/vs/github-codespaces">codespaces</a></li>
+                <li><a href="https://www.gitpod.io/vs/local-development">gitpod vs Local</a></li>
+                <li><a href="https://www.gitpod.io/vs/local-development">development</a></li>
+                <li><a href="https://www.gitpodstatus.com/" target="_blannk">status</a></li>
+            </ul>
+            <ul class="list">
+                <li class="bold">Developer</li>
+                <li><a href="https://www.gitpod.io/#get-started">Get started</a></li>
+                <li><a href="https://www.gitpod.io/screencasts/getting-started-with-gitpod">screencast</a></li>
+                <li><a href="https://www.gitpod.io/blog">blog</a></li>
+                <li><a href="https://www.gitpod.io/docs">Documentation</a></li>
+                <li><a href="https://www.gitpod.io/support">Support</a></li>
+                <li><a href="https://github.com/gitpod-io/gitpod/issues/new/choose" target="_blank">Report a bug</a>
+                </li>
+                <li><a href="https://www.gitpod.io/community">Community</a></li>
+            </ul>
+            <ul class="list">
+                <li class="bold">Company</li>
+                <li><a href="https://www.gitpod.io/about">About</a></li>
+                <li><a href="https://gitpod.crew.work/jobs" class="highlight-career" target="_blank">Careers</a></li>
+                <li><a href="https://www.gitpod.io/customers">customers</a></li>
+                <li><a href="https://www.gitpod.io/contact">contact</a></li>
+                <li><a href="https://www.gitpod.io/media-kit">media-kit</a></li>
+                <li><a href="https://www.gitpod.io/security">security</a></li>
+            </ul>
+            <ul class="list">
+                <li class="bold">Legal</li>
+                <li><a href="https://www.gitpod.io/imprint">imprint</a></li>
+                <li><a href="https://www.gitpod.io/terms">Terms of Service</a></li>
+                <li><a href="https://www.gitpod.io/privacy">Privacy Policy</a></li>
+            </ul>
+        </div>
+        <di class="footer-logo">
+            <div class="footer-left-col">
+                <a href="#">
+                    <div class="left-img">
+                        <img src="/images/logo-textless.svg" alt="">
+                    </div>
+                </a>
+                <span>Copyright &copy; 2022 Gitpod</span>
+            </div>
+            <div class="footer-right-col">
+                <a href="https://twitter.com/gitpod">
+                    <img src="/images/twitter.svg" alt="Twitter" width="24" height="24">
+                </a>
+                <a href="https://github.com/gitpod-io">
+                    <img src="/images/github.svg" alt="github" width="24" height="24">
+                </a>
+                <a href="https://discord.com/invite/gitpod">
+                    <img src="/images/discord.svg" alt="discord" width="24" height="24">
+                </a>
+            </div>
+        </di>
+    </footer>
+    <div class="bottom">
+        <p class="bottom-text">
+            This website uses cookies to enhance the user experience. Read our
+            <a href="https://www.gitpod.io/privacy">privacy policy</a>
+            for more info.
+        </p>
+        <button class="cookies">
+            Accept Cookies
+        </button>
+    </div>
+</body>
+
+</html>
